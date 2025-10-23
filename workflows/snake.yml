@@ -1,0 +1,36 @@
+name: Generate Snake Animation
+
+# Menjadwalkan GitHub Action untuk berjalan setiap hari pada tengah malam (Waktu UTC)
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  # Memungkinkan untuk menjalankan Action secara manual dari tab Actions di GitHub
+  workflow_dispatch:
+
+# Konfigurasi pekerjaan yang akan dijalankan
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Langkah 1: Checkout kode repositori Anda
+      - uses: actions/checkout@v4
+
+      # Langkah 2: Menggunakan Action Snake Game
+      - uses: Platane/snk@v3
+        with:
+          # Username GitHub Anda. JANGAN LUPA GANTI!
+          github_user_name: viabdillah 
+          
+          # Lokasi dan nama file output GIF (disimpan di root repositori)
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=dark
+
+      # Langkah 3: Commit dan Push file GIF/SVG yang baru dibuat ke repositori
+      - name: Push new snake file to repository
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

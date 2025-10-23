@@ -1,7 +1,7 @@
 <div align="center">
     <img src="./img/github-header-banner.png" alt="Divi Abdillah Almasrur" width="100%">
     <h1>Halo! Saya [Nama Anda] 👋</h1>
-    <p>Selamat datang di taman bermain digital saya! Saya seorang [Profesi/Gelar Anda], bersemangat tentang [Minat Utama Anda].</p>
+    <p>Selamat datang di taman bermain digital saya! Saya seorang Mahasiswa Sistem Informasi, bersemangat tentang Pengembangan Teknologi.</p>
 </div>
 
 ---
@@ -22,13 +22,11 @@ Saya senang bekerja dengan teknologi berikut:
 
 Butuh istirahat sejenak? Mari bermain!
 
-### 🐍 Snake Game (Ular)
+### 🐍 Snake Game (Ular) - Tampilan Animasi
 
-Gunakan tautan di bawah ini. Cukup klik pada tautan dan Anda bisa bermain!
-
-[Mainkan Game Ular (Snake) di Profil GitHub Saya!](https://github-profile-snake-game.vercel.app/snake.svg?user=USERNAME_GITHUB_ANDA)
-
-> **Catatan:** Ganti `USERNAME_GITHUB_ANDA` dengan username GitHub Anda yang sebenarnya!
+<p align="center">
+    <img src="https://raw.githubusercontent.com/USERNAME_GITHUB_ANDA/USERNAME_GITHUB_ANDA/output/github-snake.svg" alt="Animasi Game Ular" />
+</p>
 
 ### 🧱 Tetris
 
