@@ -1,6 +1,6 @@
 <div align="center">
     <img src="./img/github-header-banner.png" alt="Divi Abdillah Almasrur" width="100%">
-    <h1>Halo! Saya [Nama Anda] 👋</h1>
+    <h1>Halo! Saya Divi Abdillah Almasrur 👋</h1>
     <p>Selamat datang di taman bermain digital saya! Saya seorang Mahasiswa Sistem Informasi, bersemangat tentang Pengembangan Teknologi.</p>
 </div>
 
@@ -18,25 +18,6 @@ Saya senang bekerja dengan teknologi berikut:
 
 <br>
 
-## 🕹️ Zona Bermain (Games!)
-
-Butuh istirahat sejenak? Mari bermain!
-
-### 🐍 Snake Game (Ular) - Tampilan Animasi
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/USERNAME_GITHUB_ANDA/USERNAME_GITHUB_ANDA/output/github-snake.svg" alt="Animasi Game Ular" />
-</p>
-
-### 🧱 Tetris
-
-Untuk game yang lebih kompleks seperti Tetris atau Pac-Man, cara terbaik adalah dengan memberikan tautan atau *link* ke game yang di-*host* di luar (misalnya, di GitHub Pages Anda).
-
-[🎮 Mainkan Tetris di Sini!](LINK_KE_GAME_TETRIS_ANDA)
-
-[👾 Mainkan Pac-Man di Sini!](LINK_KE_GAME_PACMAN_ANDA)
-
----
 
 ## 📈 Statistik GitHub Saya
 
